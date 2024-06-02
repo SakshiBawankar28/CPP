@@ -11,7 +11,7 @@ int main()
     cout << "Before swapping numner is "<< n1 << " and " << n2 <<endl;
     temp = n1;
     n1 = n2;
-    n2 = n1;
+    n2 = temp;
     cout << "After swapping numner is "<< n1 <<" and "<< n2 <<endl;
     return 0;
 }
